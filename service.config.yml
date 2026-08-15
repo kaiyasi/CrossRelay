@@ -1,0 +1,29 @@
+# Platform-managed service definitions.
+# You can define one or more services. Every service runs the same built image
+# with a different start command.
+#
+# name:
+#   Lowercase letters, numbers, and dashes only.
+#
+# port:
+#   The internal port this service listens on inside the container.
+#
+# runtime:
+#   Allowed values:
+#   - node, python, go, static for app services
+#   - postgres, redis, meilisearch for platform-managed sidecars
+#
+# start:
+#   The process command executed inside the container.
+#   Required for app services only.
+#
+# expose:
+#   true to publish a host port automatically, false for internal-only services.
+#   Managed sidecars must stay false.
+
+services:
+  - name: crossrelay
+    port: 3000
+    runtime: node
+    start: npm start
+    expose: false

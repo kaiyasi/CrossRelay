@@ -1,0 +1,10 @@
+node_modules/
+.env
+npm-debug.log*
+bridge-state.json
+
+# Runtime data and generated files
+data/
+logs/
+__pycache__/
+*.py[cod]

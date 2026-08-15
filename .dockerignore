@@ -1,0 +1,7 @@
+node_modules
+.git
+.env
+.env.*
+bridge-state.json
+data
+npm-debug.log*

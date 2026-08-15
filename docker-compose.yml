@@ -1,0 +1,13 @@
+services:
+  crossrelay:
+    build: .
+    restart: unless-stopped
+    env_file:
+      - .env
+    environment:
+      BRIDGE_STATE_PATH: /app/data/bridge-state.json
+    volumes:
+      - bridge-state:/app/data
+
+volumes:
+  bridge-state:

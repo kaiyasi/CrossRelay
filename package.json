@@ -1,0 +1,19 @@
+{
+  "name": "crossrelay",
+  "version": "1.0.0",
+  "description": "CrossRelay: a bidirectional bridge between Telegram and Discord",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "start:test": "set NODE_ENV=test&& node src/index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "dotenv": "^17.4.2",
+    "telegraf": "^4.16.3"
+  }
+}
