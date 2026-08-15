@@ -2,6 +2,8 @@
 
 CrossRelay is a two-way bridge that forwards messages between Telegram chats and Discord channels.
 
+Licensed under the MIT License. See [LICENSE](LICENSE) for details.
+
 ## Features
 
 - Telegram -> Discord forwarding with sender name/avatar (via webhook when available)
