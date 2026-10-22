@@ -2,7 +2,7 @@
 
 CrossRelay is a two-way bridge that forwards messages between Telegram chats and Discord channels.
 
-Licensed under the MIT License. See [LICENSE](LICENSE) for details.
+Licensed under the KYL Open License. See [LICENSE](LICENSE) for details.
 
 ## Features
 
@@ -101,3 +101,6 @@ When `NODE_ENV=test`, the loader accepts both normal keys and `TEST_` keys.
   - retry queue and rate-limit backoff
   - persistent mapping for multiple chat/channel pairs
   - logging + metrics + health checks
+
+
+See [LICENSING.md](LICENSING.md) for license scope, third-party exceptions, and earlier-version notices.
